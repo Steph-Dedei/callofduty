@@ -1,0 +1,141 @@
+body *{
+    font-family: helvetica;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+    
+}
+
+header a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    vertical-align: middle;
+    text-align: center;
+}
+article{
+    padding: 10px;
+}
+header h1{
+    display: block;
+    margin-top: 30px;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+header{
+    margin-bottom: 10px;
+    padding: 10px;
+   
+    box-shadow: 0px 5px 5px hsl(0, 0%, 92%);
+    text-align: center;
+}
+
+header ul{
+    overflow: auto;
+    white-space:nowrap;
+    width: 100%;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 20px 5px 20px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: hsl(0, 0%, 0%);
+    box-shadow: 5px 5px 5px hsl(0, 0%, 80%);
+    border-radius: 10px;
+}
+header li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.biography img{
+    width: 300px;
+    margin-bottom: 10px;
+}
+section h1{
+margin-bottom: 10px;
+margin-top: 20px;
+padding-bottom: 10px;
+border-bottom: 2px dashed;
+}
+.new li{
+    margin-bottom: 10px;
+    font-weight: bold;
+    list-style: none;
+    font-size: 20px;
+    
+}
+.new img{
+    width: 100px;
+    margin-right: 10px;
+    border-radius: 10px;
+    margin-bottom:10px ;
+    box-shadow: 5px 5px 5px hsl(0, 3%, 60%);
+    vertical-align: middle;
+}
+.new div{
+    display: inline-block;
+}
+.new div i{
+    font-style: normal;
+    font-weight: normal;
+    color: rgb(202, 197, 197);
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: hsl(0, 0%, 80%);
+}
+@media(min-width:1000px){
+    body{
+        width: 90%;
+        margin: auto;
+    }
+
+    header ul{
+        float: right;
+        width: auto;
+        margin-top: -70px;
+    }
+    header h1{
+        width: 150px;
+        margin-left: 30px;
+        display: inline-block;
+    }
+    header{
+        text-align: left;
+        background-color: hsl(0, 0%, 95%);
+    }
+    section {
+        clear: both;
+    }
+    .new{
+        color:rgb(255, 255, 255);
+        padding: 20px;
+        background-image: url(../img/img16.jpg );
+        background-color: hsl(0, 0%, 98%);
+    }
+    .new img{
+        margin-right: 30px;
+    }
+    .biography img{
+        float: left;
+        border-radius: 10px;
+        width: 400px;
+    }
+    .biography{
+        background-color: hsl(0, 0%, 98%);
+        overflow: hidden;
+        padding: 10px;
+    }
+    .biography p{
+        float: right;
+        width: 63%;
+        line-height: 32px;
+    }
+}
